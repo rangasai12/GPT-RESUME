@@ -10,12 +10,17 @@ Tailor Resume based on Job Description
 
 1. **Clone the Repository**
 2. **Add your Resume in the test.tex file**
-3. **Install Dependencies**
+3. **Install PDFLatex**
+   For Mac:
+   ```bash
+   brew cask install mactex
+   ```
+5. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Set Up Environment Variables**
+6. **Set Up Environment Variables**
    add variables in the  `.env` file in the project’s root directory , add your Groq API key and Name:
    ```
    GROQ_API_KEY="groq_api_key_here"
@@ -23,7 +28,7 @@ Tailor Resume based on Job Description
    ```
    (Check GROQ website for API key)
    
-5. **Run the Application**
+7. **Run the Application**
    ```bash
    streamlit run resume_auto.py
    ```
