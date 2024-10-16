@@ -9,13 +9,13 @@ Tailor Resume based on Job Description
 ## Setup Instructions
 
 1. **Clone the Repository**
-
-2. **Install Dependencies**
+2. **Add your Resume in the test.tex file**
+3. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Set Up Environment Variables**
+4. **Set Up Environment Variables**
    add variables in the  `.env` file in the project’s root directory , add your Groq API key and Name:
    ```
    GROQ_API_KEY="groq_api_key_here"
