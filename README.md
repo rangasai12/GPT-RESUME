@@ -4,6 +4,7 @@ Tailor Resume based on Job Description
 
 ## Prerequisites
 - Python 3.7 or higher
+- Latex File of your resume, put the resume in the test.tex file
 
 ## Setup Instructions
 
@@ -28,6 +29,7 @@ Tailor Resume based on Job Description
    ```
 
 ## How to Use It
+
 - Open your web browser and go to `http://localhost:8501`.
 - enter Job description and Company Name
 - Resume should be in a new Company Name folder
