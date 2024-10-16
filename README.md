@@ -1,5 +1,6 @@
 # Simple AUTO-RESUME
 
+Tailor Resume based on Job Description 
 
 ## Prerequisites
 - Python 3.7 or higher
@@ -19,7 +20,8 @@
    GROQ_API_KEY="groq_api_key_here"
    NAME="Your Name Here"
    ```
-
+   (Check GROQ website for API key)
+   
 5. **Run the Application**
    ```bash
    streamlit run resume_auto.py
@@ -31,7 +33,7 @@
 - Resume should be in a new Company Name folder
 
 ## NOTE
-- Not very optimized with the token usage
+- Not very optimized with the token usage ( USES LOTS OF TOKENS )
 - Assumes that you have a single latex file with all the content
 - Cross check the resume once
 
